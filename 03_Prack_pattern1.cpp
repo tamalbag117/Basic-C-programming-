@@ -1,4 +1,5 @@
-//printing patterns
+/**printing patterns
+*Print star(*) using nested for loop*/
 #include<stdio.h>
 int main() {
    int i, j, n;
