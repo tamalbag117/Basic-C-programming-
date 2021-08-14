@@ -31,7 +31,7 @@ int main()
 		{
 			sum=sum-(pow(x,i)/factorial);//when the number is odd
 		}	
-	temp++;//to chek even or odd number ,number+2;		
+	temp++;//to check even or odd number ,number+2;		
 	}
 printf("the sum of the given number is:%f",sum);
 return 0;	
