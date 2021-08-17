@@ -1,4 +1,12 @@
-//decimal roman
+/* decimal to roman number convertion
+I created this program to convert decimal number into binary number
+suppose user input : 5 so it should show user V
+or if user input the number 17 so it should show user out put as : xvii
+Time complexity of this program : O(1), that's means it execute in constant time 
+we use if else operator 
+to execute the program correctly
+*/
+
 #include <stdio.h>
 int main()
 {
