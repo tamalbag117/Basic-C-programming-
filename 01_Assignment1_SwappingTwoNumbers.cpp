@@ -15,3 +15,18 @@ int main(){
 	*ptr1=temp;
 	printf("after swapping the two numbers are :\t %d and \t %d",first_number,second_number);
 }
+/* here we can also use bitwise operator to reduce space complexity:
+#include<stdio.h>
+int main(){
+	int first_number,second_number;
+	printf("Enter the two numbers\n");
+	printf("first number:\t");
+	scanf("%d",&first_number);
+	printf("\nsecond number:\t");
+	scanf("%d",&second_number);
+	first_number = first_number ^ second_number;
+	second_number = first_number ^ second_number;
+	first_number = first_number ^ second_number;
+	printf("after swapping the two numbers are :\t %d and \t %d",first_number,second_number);
+}
+*/
