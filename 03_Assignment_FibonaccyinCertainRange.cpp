@@ -1,4 +1,5 @@
 // Write a C Program to find Fibonacci series within a certain range.
+// fibonaccyi series 0 1 1 2 3 5 8 13 21 ......//
 #include<stdio.h>
 long long int fibonacy(int n1,int n2)
 {
